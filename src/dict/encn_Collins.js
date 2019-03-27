@@ -114,19 +114,19 @@ class encn_Collins {
                 definitions.push(definition);
             }
 
-            let css = `
-                <style>
-                    span.star {color: #FFBB00;}
-                    span.cet  {margin: 0 3px;padding: 0 3px;font-weight: normal;font-size: 0.8em;color: white;background-color: #5cb85c;border-radius: 3px;}
-                    span.pos  {text-transform:lowercase; font-size:0.9em; margin-right:5px; padding:2px 4px; color:white; background-color:#0d47a1; border-radius:3px;}
-                    span.tran {margin:0; padding:0;}
-                    span.eng_tran {margin-right:3px; padding:0;}
-                    span.chn_tran {color:#0d47a1;}
-                    ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;background:rgba(13,71,161,0.1); border-radius:5px;}
-                    li.sent  {margin:0; padding:0;}
-                    span.eng_sent {margin-right:5px;}
-                    span.chn_sent {color:#0d47a1;}
-                </style>`;
+        let css = `
+            <style>
+                span.star {color: #f66;}
+                span.cet  {margin: 0 3px;padding: 0 3px;font-weight: normal;font-size: 0.8em;color: white;background-color: #5cb85c;border-radius: 3px;}
+                span.pos  {text-transform:lowercase; font-size:0.9em; margin-right:5px; padding:2px 4px; font-weight: bold; color: #ff6014; font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace; padding-left: 0;}
+                span.tran {margin:0; padding:0;}
+                span.eng_tran {margin-right:3px; padding:0;}
+                span.chn_tran {color:#0d47a1; font-size: 0.8rem;}
+                ul.sents {font-size:0.8em; list-style:square inside; margin:3px 0;padding:5px;background:rgba(13,71,161,0.1); border-radius:5px;}
+                li.sent  {margin:0; padding:0;}
+                span.eng_sent {margin-right:5px;}
+                span.chn_sent {color:#0d47a1;}
+            </style>`;
 
             notes.push({
                 css,

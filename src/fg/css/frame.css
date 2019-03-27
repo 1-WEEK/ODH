@@ -1,16 +1,19 @@
 .odh-notes {
-  font-family: 'Open Sans', Helvetica, Arial, 'Microsoft Yahei', Sans-serif;
-  /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 'Microsoft Yahei', sans-serif;*/
+  font-family: "Lato", Helvetica, Arial, "Microsoft Yahei", Sans-serif;
   font-size: 14px;
   text-align: left;
-  color: #1d2129;
+  color: #34495e;
   line-height: 1.5em;
   min-height: 1.5em;
-  overflow-y: auto;
   margin: 8px;
   border-radius: 3px;
   box-sizing: border-box;
-  ;
+  /* color: #f66; */
+}
+
+.odh-notes strong,
+.odh-notes b {
+  font-family: "PT Serif", serif;
 }
 
 .odh-note {
@@ -22,10 +25,10 @@
 .odh-headsection {
   margin: 3px 0;
   padding: 0 3px 3px;
-  border-bottom: 2px #666 solid;
 }
 
 .odh-expression {
+  font-family: "PT Serif", serif;
   font-size: 1.2em;
   font-weight: bold;
   margin-right: 4px;
@@ -46,48 +49,52 @@
 .odh-definition,
 .odh-sentence {
   display: block;
-  background-color: #fefefe;
-  border: 1px solid;
-  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
-  border-radius: 3px;
-  padding: 5px;
-  margin-top: 5px;
   word-wrap: break-word;
-  overflow: auto;  
+  background-color: #fff;
+  border-radius: 3px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.6em 0.6em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125);
 }
-#odh-context{
-  font-family: 'Open Sans', Helvetica, Arial, 'Microsoft Yahei', Sans-serif;
-  background:#fffff4;
-  margin:0;
+#odh-context {
+  font-family: "Open Sans", Helvetica, Arial, "Microsoft Yahei", Sans-serif;
+  background: #fffff4;
+  margin: 0;
   width: 96%;
   height: 100px;
 }
 .odh-sentence {
   border: 2px dashed #d0d1d5;
-  padding:0;
+  padding: 0;
 }
 
 .odh-addnote-disabled,
 .odh-addnote {
-  margin: 3px;
+  margin-left: 3px;
   cursor: pointer;
   position: relative;
   float: right;
+  width: 20px;
+  height: 20px;
 }
 
-.odh-addnote-disabled{
+.odh-addnote-disabled {
   cursor: not-allowed;
-  opacity:0.5;
+  opacity: 0.5;
 }
 
 .odh-audios {
-  margin: 3px;
   position: relative;
+  display: flex;
+  justify-content: center;
   float: right;
 }
 
 .odh-playaudio {
   cursor: pointer;
+  width: 20px;
+  height: 20px;
   margin: 0 3px;
 }
 

@@ -19,12 +19,12 @@ class ODHFront {
 
         window.addEventListener('mousemove', e => this.onMouseMove(e));
         window.addEventListener('mousedown', e => this.onMouseDown(e));
-        window.addEventListener('dblclick', e => this.onDoubleClick(e));
+        // window.addEventListener('dblclick', e => this.onDoubleClick(e)); // disabled double click
         window.addEventListener('keydown', e => this.onKeyDown(e));
 
         chrome.runtime.onMessage.addListener(this.onBgMessage.bind(this));
         window.addEventListener('message', e => this.onFrameMessage(e));
-        document.addEventListener('selectionchange', e => this.userSelectionChanged(e));
+        // document.addEventListener('selectionchange', e => this.userSelectionChanged(e)); // disable click-drag
         //window.addEventListener('selectionend', e => this.onSelectionEnd(e));
     }
 

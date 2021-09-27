@@ -1,5 +1,5 @@
 .odh-notes {
-  font-family: "Lato", Helvetica, Arial, "Microsoft Yahei", Sans-serif;
+  font-family: "Inter", "Sarasa Gothic CL", Sans-serif;
   font-size: 14px;
   text-align: left;
   color: #34495e;
@@ -8,18 +8,11 @@
   margin: 8px;
   border-radius: 3px;
   box-sizing: border-box;
-  /* color: #f66; */
-}
-
-.odh-notes strong,
-.odh-notes b {
-  font-family: "PT Serif", serif;
 }
 
 .odh-note {
   margin: 5px 0;
   padding: 0px;
-  /*border: 1px dashed red;*/
 }
 
 .odh-headsection {
@@ -35,7 +28,7 @@
 }
 
 .odh-reading {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", "Sarasa Gothic CL", sans-serif;
   margin-right: 4px;
   font-size: 0.9em;
   display: inline-block;
@@ -58,7 +51,7 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125);
 }
 #odh-context {
-  font-family: "Open Sans", Helvetica, Arial, "Microsoft Yahei", Sans-serif;
+  font-family: "Inter", "Sarasa Gothic CL", Sans-serif;
   background: #fffff4;
   margin: 0;
   width: 96%;
@@ -114,7 +107,6 @@ hr {
 }
 
 .highlight {
-  /*font-weight       : bold;*/
   font-size: 0.9em;
   border-radius: 4px;
   color: #fff;
@@ -122,4 +114,8 @@ hr {
   margin-right: 3px;
   text-decoration: none;
   text-align: center;
+}
+
+* {
+  font-feature-settings: "liga" 1, "calt" 1, "ss01" 1, "case" 1;
 }

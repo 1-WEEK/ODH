@@ -49,10 +49,12 @@ class Popup {
             return;
         }
 
-        this.popup.contentWindow.scrollTo(0, 0);
+        Promise.resolve().then(()=>{
+            this.popup.contentWindow.scrollTo(0, 0);
 
-        const doc = this.popup;
-        doc.srcdoc = content;
+            const doc = this.popup;
+            doc.srcdoc = content;
+        })
     }
 
     getRangeRect(point) {

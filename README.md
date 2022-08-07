@@ -1,3 +1,7 @@
+> This is my personal customized version of ODH. It contains bugfixes and styles for self-use.
+
+![Anki Notes](https://raw.githubusercontent.com/1-WEEK/ODH/master/doc/img/custom_ui.jpg)
+
 # Online Dictionary Helper (with Anki support)
 
 [[中文版说明](README.zh_CN.md)]
